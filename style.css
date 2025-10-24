@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
 body {
-    background: rgb(230, 67, 67);
+    background: radial-gradient(circle at 50.4% 50.5%, rgb(251, 32, 86) 0%, rgb(135, 2, 35) 90%);
     color: black;
     font-family:New Rocker;
     h1 {color:white;
@@ -14,9 +14,10 @@ body {
         font-size: 25px;
     }
     .recipe-section {
-        border: 3px dashed black;
+        border: 3px solid black;
         padding: 10px;
         margin: 10px 0;
+        border-radius: 50px;
     }
     a {
         color: rgb(255, 255, 152);
@@ -24,7 +25,17 @@ body {
         font-weight: bolder;
     }
     img {
-        border: 2px dashed black;
+        border: 2px solid black;
         padding: 5px;
+    }
+    a {
+        background: lightgray;
+        padding: 4px 10px;
+        border: 1px solid black;
+        border-radius: 20px;
+        color: black
+    }
+    
+
     }
 }
